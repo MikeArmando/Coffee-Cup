@@ -1,4 +1,7 @@
 import './footer.css'
+import Ig from '../../assets/img/ig.png'
+import Face from '../../assets/img/face.png'
+import Twitter from '../../assets/img/twitter.png'
 
 export const Footer = () => {
     return (
@@ -11,10 +14,10 @@ export const Footer = () => {
                     <p> &copf; 2023 Montano Valencia Mike Armando | Todos los derechos reservados</p>
                     <div class="socials">
                         <h3>Redes sociales</h3>
-                        <a href="https://www.instagram.com/coffeecup_shop/" target="_blank"><img src="img/ig.png" alt=""></img></a>
+                        <a href="https://www.instagram.com/coffeecup_shop/" target="_blank"><img src={Ig} alt=""></img></a>
                         <a href="https://www.facebook.com/profile.php?id=61552221012465&mibextid=9R9pXO" target="_blank"> <img
-                            src="img/face.png" alt=""></img></a>
-                        <a href="https://twitter.com/CoffeeCupShop" target="_blank"><img src="img/twitter.png" alt=""></img></a>
+                            src={Face} alt=""></img></a>
+                        <a href="https://twitter.com/CoffeeCupShop" target="_blank"><img src={Twitter} alt=""></img></a>
                     </div>
                 </div>
                 <div class="footer-cate">
