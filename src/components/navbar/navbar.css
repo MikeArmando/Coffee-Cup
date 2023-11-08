@@ -16,7 +16,7 @@ nav {
     right: 0;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 nav img {
@@ -34,7 +34,7 @@ ul {
 ul li a {
     text-decoration: none;
     color: white;
-    margin: 0 1rem;
+    margin: 0 1.5rem;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -42,7 +42,7 @@ ul li a {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     overflow: hidden;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 ul li a:before {
@@ -85,12 +85,12 @@ nav li:hover>ul {
 
 .icons {
     display: flex;
-    margin-right: 2rem;
+    margin: 0 3rem;
 }
 
 .icons img {
     margin: 0 1rem;
-    height: 2.2rem;
+    height: 2rem;
 }
 
 .bar {

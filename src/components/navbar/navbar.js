@@ -15,26 +15,15 @@ export const Navbar = () => {
                     <img src={Logo} alt=""></img>
                 </Link>
                 <ul class="nav-item-box">
+                    <li>
+                        <Link href='/'>Home</Link>
+                    </li>
                     <li class="nav-items">
-                        <a href='cafe/cafe.html'>Café</a>
+                        <a href='cafe/cafe.html'>Coffee</a>
                         <ul class="sub-menu-box">
-                            <li><a href="cafe/cafeClasico.html">Café Clasico</a></li>
-                            <li><a href="cafe/cafeAmericano.html">Café Americano</a></li>
+                            <li><a href="cafe/cafeClasico.html">Hot Coffee</a></li>
+                            <li><a href="cafe/cafeAmericano.html">Cold Coffee</a></li>
                             <li><a href="cafe/expresso.html">Expresso</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href='cafeHelado/cafeHelado.html'>Café helado</a>
-                        <ul class="sub-menu-box">
-                            <li><a href="cafeHelado/latte.html">Latte helado</a></li>
-                            <li><a href="cafeHelado/americano.html">Helado Americano</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href='capuchino/capuchino.html'>Capuchino</a>
-                        <ul class="sub-menu-box">
-                            <li><a href="capuchino/clasico.html">Capuchino Clasico</a></li>
-                            <li><a href="capuchino/art.html">arte del Capuchino</a></li>
                         </ul>
                     </li>
                     <li>
@@ -45,14 +34,7 @@ export const Navbar = () => {
                         </ul>
                     </li>
                     <li>
-                        <a href='cocteles/cocteles.html'>Cócteles de café</a>
-                        <ul class="sub-menu-box">
-                            <li><a href="cocteles/martini.html">Expresso martini</a></li>
-                            <li><a href="cocteles/irlandes.html">Cocteles de café irlandés</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href='desayuno/desayuno.html'>Desayunos</a>
+                        <a href='desayuno/desayuno.html'>breakfast</a>
                         <ul class="sub-menu-box">
                             <li><a href="desayuno/sandwich.html">Sandwiches</a></li>
                             <li><a href="desayuno/avenas.html">Avenas</a></li>
@@ -60,40 +42,26 @@ export const Navbar = () => {
                         </ul>
                     </li>
                     <li>
-                        <a href='batidos/batidos.html'>Batidos</a>
-                        <ul class="sub-menu-box">
-                            <li><a href="batidos/frutas.html">Batidos de frutas</a></li>
-                            <li><a href="batidos/proteina.html">Baditos de proteinas</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href='bebidas/bebidas.html'>Bebidas</a>
+                        <a href='bebidas/bebidas.html'>Drinks</a>
                         <ul class="sub-menu-box">
                             <li><a href="bebidas/jugo.html">Jugos</a></li>
                             <li><a href="bebidas/alcohol.html">Alcohol</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href='botana/botana.html'>Botana</a>
-                        <ul class="sub-menu-box">
-                            <li><a href="botana/chocolates.html">Dulces</a></li>
-                            <li><a href="botana/cacahuates.html">Chips</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href='postre/postre.html'>Postre</a>
+                        <a href='postre/postre.html'>Dessert</a>
                         <ul class="sub-menu-box">
                             <li><a href="postre/pastel.html">Pasteles</a></li>
                             <li><a href="postre/pies.html">Pies</a></li>
                             <li><a href="postre/panes.html">Panes</a></li>
                         </ul>
                     </li>
+                    <div class="icons">
+                        <a href="user.html"><img src={User} alt=""></img></a>
+                        <a href="#!"><img src={Cart} alt=""></img></a>
+                        <a href="#!" class="bar"><img src={Menu} alt=""></img></a>
+                    </div>
                 </ul>
-                <div class="icons">
-                    <a href="user.html"><img src={User} alt=""></img></a>
-                    <a href="#!"><img src={Cart} alt=""></img></a>
-                    <a href="#!" class="bar"><img src={Menu} alt=""></img></a>
-                </div>
             </nav>
         </>
     )
