@@ -4,9 +4,9 @@ import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
   apiKey: "AIzaSyCaxDW7xsuW9mZKtZymcjEBkGhSuJ4zg1Y",
-  authDomain: "coffeecup-d736c.firebaseapp.com",
-  projectId: "coffeecup-d736c",
-  storageBucket: "coffeecup-d736c.appspot.com",
+  authDomain: "coffeecup.firebaseapp.com",
+  projectId: "coffeecup",
+  storageBucket: "coffeecup.appspot.com",
   messagingSenderId: "75948145144",
   appId: "1:75948145144:web:c69c0074334ce39edbbe0d",
   measurementId: "G-R72VR0PBK2"
