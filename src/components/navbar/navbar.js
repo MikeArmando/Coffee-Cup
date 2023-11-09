@@ -16,7 +16,7 @@ export const Navbar = () => {
                 </Link>
                 <ul class="nav-item-box">
                     <li>
-                        <Link href='/'>Home</Link>
+                        <Link href='/coffee-cup'>Home</Link>
                     </li>
                     <li class="nav-items">
                         <a href='cafe/cafe.html'>Coffee</a>
