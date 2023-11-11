@@ -36,37 +36,34 @@ export const Home = () => {
                 <div class="offer-intro">
                     <h2>Our Offer</h2>
                     <img src={BeansLine} alt=""></img>
-                    <p>Nosotros brindamos a nuestros clientes una gran variedadd de opciones para el antojo, con la variedad de
-                        elegir comer en nuestra tienda fisica o ordenar por linea.
+                    <p>We provide our customers with a wide variety of options for the craving, with the variety of
+                        Choose to eat in our physical store or order online.
                     </p>
                 </div>
                 <div class="offer-box">
                     <div class="offer-item-boxes">
                         <img src={CoffeeIcon} alt=""></img>
-                        <h3>Tipos de café</h3>
-                        <p>Una gran variedad de cafés de todo tipo que se encuentra por el mundo y hecho con la mejor calidad.
+                        <h3>Types of Coffee</h3>
+                        <p>A wide variety of coffees of all kinds found all over the world and made with the best quality.
                         </p>
                     </div>
                     <div class="offer-item-boxes">
                         <img src={CrosiantIcon} alt=""></img>
-                        <h3>Desayunos</h3>
-                        <p>Todo tipo de desayunos para poder disfrutar una buena alimentacion por las mañanas con nuestra
-                            selección.
+                        <h3>Breakfast</h3>
+                        <p>All kinds of breakfasts to be able to enjoy a good diet in the mornings with our selection.
                         </p>
                     </div>
                     <div class="offer-item-boxes">
                         <img src={CakeIcon} alt=""></img>
-                        <h3>Café & Postre</h3>
-                        <p>No solo brindamos varios tipos de cafés si no que tambien traemos una variedad de postres para ir
-                            acompañado.
+                        <h3>Desserts</h3>
+                        <p>Not only do we provide various types of coffees but we also bring a variety of desserts to go accompanied.
                         </p>
                     </div>
                     <div class="offer-item-boxes">
                         <img src={CoffeeGoIcon} alt=""></img>
-                        <h3>Café para llevar </h3>
-                        <p>Tenemos en cuenta una buena experiencia para nuestros cliente, por lo que ofrecemos productos para
-                            llevar.
-                        </p>
+                        <h3>Coffee to go</h3>
+                        <p>We keep in mind a good experience for our customers, so we offer products for
+                            delivery.</p>
                     </div>
                 </div>
             </section>
@@ -75,34 +72,34 @@ export const Home = () => {
                 <h2>FAQ's</h2>
                 <img src={BeansLine3} alt=""></img>
                 <p>
-                    1. ¿Cuáles son sus horas de operación?
+                    1. What are your hours of operation?
                     <br></br>
-                    Nuestra cafetería abre todos los días de la semana. Lunes a Viernes:
-                    7:00 a.m. - 8:00 p.m. Sábados y Domingos: 8:00 a.m. - 6:00 p.m.
+                    Our cafeteria is open every day of the week. Monday to Friday:
+                    7:00 a.m. - 8:00 p.m. Saturday & Sunday: 8:00 a.m. - 6:00 p.m.
                 </p>
                 <p>
-                    2. ¿Ofrecen opciones de café descafeinado?
+                    2. Do you offer decaffeinated coffee options?
                     <br></br>
-                    Sí, tenemos café descafeinado disponible en todas nuestras
-                    variedades de café.
+                    Yes, we have decaffeinated coffee available in all of our stores.
+                    varieties of coffee.
                 </p>
                 <p>
-                    3. ¿Puedo hacer pedidos para llevar o a domicilio?
+                    3. Can I order delivery?
                     <br></br>
-                    Sí, ofrecemos pedidos para llevar. También puedes
-                    realizar pedidos a domicilio a través de nuestra página web o aplicaciones de entrega asociadas.
+                    Yes, we offer takeout orders. You can also
+                    Place home orders through our website or partner delivery apps.
                 </p>
                 <p>
-                    4. ¿Tienen opciones de café de comercio justo?
+                    4. Do you have fair trade coffee options?
                     <br></br>
-                    Sí, nos enorgullece ofrecer una selección de café de comercio
-                    justo en nuestro menú.
+                    Yes, we are proud to offer a selection of commercial coffee
+                    right on our menu.
                 </p>
                 <p>
-                    5. ¿Ofrecen opciones de café con leche no láctea?
+                    5. Do you offer non-dairy latte options?
                     <br></br>
-                    Sí, tenemos alternativas de leche no láctea, como leche de
-                    almendra, leche de soja y leche de avena, para satisfacer tus preferencias dietéticas.
+                    Yes, we do have non-dairy milk alternatives, such as milk from
+                    almond, soy milk and oat milk, to suit your dietary preferences.
                 </p>
             </section>
 

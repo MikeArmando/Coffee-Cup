@@ -15,11 +15,8 @@ export const Navbar = () => {
                     <img src={Logo} alt=""></img>
                 </Link>
                 <ul class="nav-item-box">
-                    <li>
-                        <Link href='/coffee-cup'>Home</Link>
-                    </li>
                     <li class="nav-items">
-                        <a href='cafe/cafe.html'>Coffee</a>
+                        <Link to='/Coffee'>Coffee</Link>
                         <ul class="sub-menu-box">
                             <li><a href="cafe/cafeClasico.html">Hot Coffee</a></li>
                             <li><a href="cafe/cafeAmericano.html">Cold Coffee</a></li>
@@ -27,14 +24,14 @@ export const Navbar = () => {
                         </ul>
                     </li>
                     <li>
-                        <a href='frappe/frappe.html'>Frappe</a>
+                        <Link to='/Frappe'>Frappe</Link>
                         <ul class="sub-menu-box">
                             <li><a href="frappe/dulce.html">Frappe de Dulce</a></li>
                             <li><a href="frappe/frutas.html">Frappe de frutas</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href='desayuno/desayuno.html'>breakfast</a>
+                        <Link to='/Breakfast'>Breakfast</Link>
                         <ul class="sub-menu-box">
                             <li><a href="desayuno/sandwich.html">Sandwiches</a></li>
                             <li><a href="desayuno/avenas.html">Avenas</a></li>
@@ -42,19 +39,22 @@ export const Navbar = () => {
                         </ul>
                     </li>
                     <li>
-                        <a href='bebidas/bebidas.html'>Drinks</a>
+                        <Link to='/Drinks'>Drinks</Link>
                         <ul class="sub-menu-box">
                             <li><a href="bebidas/jugo.html">Jugos</a></li>
                             <li><a href="bebidas/alcohol.html">Alcohol</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href='postre/postre.html'>Dessert</a>
+                        <Link to='/Dessert'>Dessert</Link>
                         <ul class="sub-menu-box">
                             <li><a href="postre/pastel.html">Pasteles</a></li>
                             <li><a href="postre/pies.html">Pies</a></li>
                             <li><a href="postre/panes.html">Panes</a></li>
                         </ul>
+                    </li>
+                    <li>
+                        <Link to='/Contact'>Contact</Link>
                     </li>
                     <div class="icons">
                         <Link to='/Account'><img src={User} alt=""></img></Link>
