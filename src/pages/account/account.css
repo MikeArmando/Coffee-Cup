@@ -1,0 +1,47 @@
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.user div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.user input {
+    padding: 1rem;
+    margin: .4rem 0;
+    min-width: 20rem;
+}
+
+.user img {
+    position: absolute;
+    top: 4rem;
+    height: 10rem;
+}
+
+.user h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: .3rem;
+}
+
+.user a {
+    margin: .5rem 0;
+    background-color: #332819;
+    color: #e1be7e;
+    padding: 1rem;
+}
+
+.user-enter {
+    margin: .5rem;
+}
+
+.user label {
+    cursor: pointer;
+    text-decoration: underline;
+}

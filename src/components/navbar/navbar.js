@@ -11,7 +11,7 @@ export const Navbar = () => {
     return (
         <>
             <nav>
-                <Link to="/">
+                <Link to="/coffee-cup">
                     <img src={Logo} alt=""></img>
                 </Link>
                 <ul class="nav-item-box">
@@ -57,9 +57,9 @@ export const Navbar = () => {
                         </ul>
                     </li>
                     <div class="icons">
-                        <a href="user.html"><img src={User} alt=""></img></a>
-                        <a href="#!"><img src={Cart} alt=""></img></a>
-                        <a href="#!" class="bar"><img src={Menu} alt=""></img></a>
+                        <Link to='/Account'><img src={User} alt=""></img></Link>
+                        <Link to="/Cart"><img src={Cart} alt=""></img></Link>
+                        <Link href="#!" class="bar"><img src={Menu} alt=""></img></Link>
                     </div>
                 </ul>
             </nav>

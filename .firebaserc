@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "coffeecup-d736c"
-  }
+    "default": "coffeecupshop",
+    "coffeecupshop": "fit-and-casual"
+  },
+  "targets": {},
+  "etags": {}
 }

@@ -14,9 +14,9 @@ export const Home = () => {
             <div className='hero-background'>
                 <section class="hero">
                     <div>
-                        <h1>Sabor auténtico, momentos inolvidables</h1>
-                        <p>Empieza tu dia con café</p>
-                        <a href="#about">Explorar</a>
+                        <h1>Coffee Cup</h1>
+                        <p>Start your day with coffee</p>
+                        <a href="#about">View More</a>
                     </div>
                 </section>
             </div>
@@ -24,17 +24,17 @@ export const Home = () => {
             <section class="about" id="about">
                 <div class="about-img"></div>
                 <div class="about-info">
-                    <h2>Café de calidad, vida con sabor</h2>
-                    <p>Nosotros somos una cafeteria en linea que ofrece una gran variedad de productos, tomando en cuenta su
-                        calidad y entrega. El diseno de nuestra pagina esta hecha tomando en cuenta la facilidad para el
-                        usuario, si dando un mejr uso. Coffee Cup 10-18-2023 Ensenada B.C calle reforma y calle Blvrd
-                        Tecnologico.</p>
+                    <h2>Quality Coffee, Life with Flavor</h2>
+                    <p>We are an online coffee shop that offers a wide variety of products, taking into account your
+                        Quality and delivery. The design of our website is made taking into account the ease of use of the
+                        user, if giving a better use. Coffee Cup 10-18-2023 Ensenada B.C Reforma Street & Blvrd Street
+                        Technological.</p>
                 </div>
             </section>
 
             <section class="offer">
                 <div class="offer-intro">
-                    <h2>Nuestra Oferta</h2>
+                    <h2>Our Offer</h2>
                     <img src={BeansLine} alt=""></img>
                     <p>Nosotros brindamos a nuestros clientes una gran variedadd de opciones para el antojo, con la variedad de
                         elegir comer en nuestra tienda fisica o ordenar por linea.
