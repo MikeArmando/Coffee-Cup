@@ -4,9 +4,9 @@ import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
   apiKey: "AIzaSyAygCpRCY1ddV3ThuPUgwZZ83HzPxqgZus",
-  authDomain: "fit-and-casual.firebaseapp.com",
-  projectId: "fit-and-casual",
-  storageBucket: "fit-and-casual.appspot.com",
+  authDomain: "WebPages.firebaseapp.com",
+  projectId: "WebPages",
+  storageBucket: "WebPages.appspot.com",
   messagingSenderId: "98427174910",
   appId: "1:98427174910:web:aa8d7138eb8e494a448aaf",
   measurementId: "G-WTVJ18HJMS"

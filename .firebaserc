@@ -1,7 +1,7 @@
 {
   "projects": {
-    "default": "coffeecupshop",
-    "coffeecupshop": "fit-and-casual"
+    "default": "WebPages",
+    "coffeecupshop": "WebPages"
   },
   "targets": {},
   "etags": {}

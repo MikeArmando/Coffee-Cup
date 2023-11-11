@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "coffeecupshop",
     "public": "build",
     "ignore": [
       "firebase.json",
