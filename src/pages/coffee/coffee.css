@@ -1,0 +1,106 @@
+.hero-background-cafe {
+    background-image: url(../../assets/img/coffee.png);
+    height: 100vh;
+}
+
+.background-dark {
+    background-color: rgba(0, 0, 0, 0.41);
+    height: 100%;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero div h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    color: white;
+    animation: fade 1s;
+}
+
+.hero div h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-top: 5rem;
+    color: white;
+    animation: fade 1s;
+}
+
+.hero div p {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 4rem;
+    animation: fade 1s;
+}
+
+.hero div a {
+    font-family: 'Lora', serif;
+    border: 1px solid;
+    padding: .9rem 2rem;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.down {
+    position: absolute;
+    bottom: 2rem;
+    height: 7rem;
+    animation: down .8s infinite ease;
+}
+
+.pro {
+    padding: 7rem 2rem;
+}
+
+.pro h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 4rem 0;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.pro-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem 0;
+
+}
+
+.pro-box img {
+    border-radius: 10rem;
+    height: 8rem;
+    cursor: pointer;
+}
+
+.pro-box a {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.pro-box a p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    padding: 0 .9rem;
+}

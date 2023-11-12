@@ -1,16 +1,13 @@
-import './coffee.css'
-
-// Images
 import coffee1 from '../../assets/img/coffee/coffee.png'
 
-export const Coffee = () => {
+export const Expresso = () => {
     return (
         <>
             <div class="hero-background-cafe">
                 <div class="background-dark">
                     <section class="hero">
                         <div>
-                            <h2>Coffee</h2>
+                            <h2>Expresso</h2>
                         </div>
                         <img class="down" src="../img/down.png" alt=""></img>
                     </section>
@@ -18,7 +15,6 @@ export const Coffee = () => {
             </div>
 
             <section class="pro">
-                <h2>Our Specials</h2>
                 <div class="pro-box">
                     <a href="#!">
                         <img src={coffee1} alt=""></img>
@@ -65,4 +61,3 @@ export const Coffee = () => {
         </>
     )
 }
-

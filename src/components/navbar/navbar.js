@@ -16,11 +16,11 @@ export const Navbar = () => {
                 </Link>
                 <ul class="nav-item-box">
                     <li class="nav-items">
-                        <Link to='/Coffee'>Coffee</Link>
+                        <Link to='/coffee'>Coffee</Link>
                         <ul class="sub-menu-box">
-                            <li><a href="cafe/cafeClasico.html">Hot Coffee</a></li>
-                            <li><a href="cafe/cafeAmericano.html">Cold Coffee</a></li>
-                            <li><a href="cafe/expresso.html">Expresso</a></li>
+                            <li><Link to="/hot">Hot Coffee</Link></li>
+                            <li><Link to="/cold">Cold Coffee</Link></li>
+                            <li><Link to="/expresso">Expresso</Link></li>
                         </ul>
                     </li>
                     <li>
