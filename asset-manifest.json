@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/coffee-cup/static/css/main.7abe4f4a.css",
-    "main.js": "/coffee-cup/static/js/main.20e15a25.js",
+    "main.css": "/coffee-cup/static/css/main.0bf3fefa.css",
+    "main.js": "/coffee-cup/static/js/main.b49eed94.js",
     "static/js/787.2b3899b6.chunk.js": "/coffee-cup/static/js/787.2b3899b6.chunk.js",
-    "static/media/coffee.png": "/coffee-cup/static/media/coffee.a3c68aa9c5fc163a1f79.png",
+    "static/media/coffee.png": "/coffee-cup/static/media/coffee.e6c6e5afea5c31aafa22.png",
     "static/media/crosiant.png": "/coffee-cup/static/media/crosiant.b34ac7f92c035c6846d3.png",
     "static/media/cake.png": "/coffee-cup/static/media/cake.8fdecf3434a907e697c3.png",
     "static/media/coffeeC.png": "/coffee-cup/static/media/coffeeC.dd1bbb785f816d6524d6.png",
@@ -17,12 +17,12 @@
     "static/media/cart.png": "/coffee-cup/static/media/cart.d6450ee901035eeee668.png",
     "static/media/twitter.png": "/coffee-cup/static/media/twitter.795e57d39523025f8f86.png",
     "index.html": "/coffee-cup/index.html",
-    "main.7abe4f4a.css.map": "/coffee-cup/static/css/main.7abe4f4a.css.map",
-    "main.20e15a25.js.map": "/coffee-cup/static/js/main.20e15a25.js.map",
+    "main.0bf3fefa.css.map": "/coffee-cup/static/css/main.0bf3fefa.css.map",
+    "main.b49eed94.js.map": "/coffee-cup/static/js/main.b49eed94.js.map",
     "787.2b3899b6.chunk.js.map": "/coffee-cup/static/js/787.2b3899b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7abe4f4a.css",
-    "static/js/main.20e15a25.js"
+    "static/css/main.0bf3fefa.css",
+    "static/js/main.b49eed94.js"
   ]
 }
