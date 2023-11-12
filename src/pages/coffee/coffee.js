@@ -1,4 +1,6 @@
 import './coffee.css'
+// Images
+import coffee1 from '../../assets/img/coffee/coffee.png'
 
 export const Coffee = () => {
     return (
@@ -7,7 +9,7 @@ export const Coffee = () => {
                 <div class="background-dark">
                     <section class="hero">
                         <div>
-                            <h2>Café</h2>
+                            <h2>Coffee</h2>
                         </div>
                         <img class="down" src="../img/down.png" alt=""></img>
                     </section>
@@ -17,23 +19,43 @@ export const Coffee = () => {
             <section class="pro">
                 <div class="pro-box">
                     <a href="#!">
-                        <img src="../img/pro/cafe/ex (1).png" alt=""></img>
-                        <p>Café expreso con crema</p>
+                        <img src={coffee1} alt=""></img>
+                        <p>Classic vanilla coffee</p>
                         <p>$50</p>
                     </a>
                     <a href="#!">
-                        <img src="../img/pro/cafe/ex (2).png" alt=""></img>
-                        <p>Café expreso clasico</p>
+                        <img src={coffee1} alt=""></img>
+                        <p>Classic vanilla coffee</p>
                         <p>$50</p>
                     </a>
                     <a href="#!">
-                        <img src="../img/pro/cafe/ca (1).png" alt=""></img>
-                        <p>Café negro con extra cafeina</p>
-                        <p>$55</p>
+                        <img src={coffee1} alt=""></img>
+                        <p>Classic vanilla coffee</p>
+                        <p>$50</p>
                     </a>
                     <a href="#!">
-                        <img src="../img/pro/cafe/ca (2).png" alt=""></img>
-                        <p>Café negro clasico</p>
+                        <img src={coffee1} alt=""></img>
+                        <p>Classic vanilla coffee</p>
+                        <p>$50</p>
+                    </a>
+                    <a href="#!">
+                        <img src={coffee1} alt=""></img>
+                        <p>Classic vanilla coffee</p>
+                        <p>$50</p>
+                    </a>
+                    <a href="#!">
+                        <img src={coffee1} alt=""></img>
+                        <p>Classic vanilla coffee</p>
+                        <p>$50</p>
+                    </a>
+                    <a href="#!">
+                        <img src={coffee1} alt=""></img>
+                        <p>Classic vanilla coffee</p>
+                        <p>$50</p>
+                    </a>
+                    <a href="#!">
+                        <img src={coffee1} alt=""></img>
+                        <p>Classic vanilla coffee</p>
                         <p>$50</p>
                     </a>
                 </div>

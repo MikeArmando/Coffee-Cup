@@ -13,8 +13,8 @@ function App() {
   return (
     <>
       <><Navbar /></>
-      <Routes path="/Coffee-Cup" element={Home}>
-        <Route exact path='/Coffee-Cup' element={<Home />} />
+      <Routes path="/coffee-cup" element={Home}>
+        <Route exact path='/coffee-cup' element={<Home />} />
         <Route exact path='/Coffee' element={<Coffee />} />
         <Route exact path='/Account' element={<Account />} />
         <Route exact path='/Cart' element={<Cart />} />

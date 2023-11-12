@@ -11,7 +11,7 @@ export const Navbar = () => {
     return (
         <>
             <nav>
-                <Link to="/Coffee-Cup">
+                <Link to="/coffee-cup">
                     <img src={Logo} alt=""></img>
                 </Link>
                 <ul class="nav-item-box">
