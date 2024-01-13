@@ -1,7 +1,8 @@
 {
   "projects": {
-    "default": "WebPages",
-    "coffeecupshop": "WebPages"
+    "default": "mike-montano",
+    "coffeecupshop": "WebPages",
+    "coffee-cup": "mike-montano"
   },
   "targets": {},
   "etags": {}

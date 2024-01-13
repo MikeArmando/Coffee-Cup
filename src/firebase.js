@@ -1,18 +1,12 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAygCpRCY1ddV3ThuPUgwZZ83HzPxqgZus",
-  authDomain: "fit-and-casual.firebaseapp.com",
-  projectId: "fit-and-casual",
-  storageBucket: "fit-and-casual.appspot.com",
-  messagingSenderId: "98427174910",
-  appId: "1:98427174910:web:aa8d7138eb8e494a448aaf",
-  measurementId: "G-WTVJ18HJMS"
+  apiKey: "AIzaSyDTJfBX7Tik89F8pficaft47ZeqhRm7U4s",
+  authDomain: "mike-montano.firebaseapp.com",
+  projectId: "mike-montano",
+  storageBucket: "mike-montano.appspot.com",
+  messagingSenderId: "699062256141",
+  appId: "1:699062256141:web:99f8661f7d2a434dcc8b44"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-export const db = getFirestore(app);
