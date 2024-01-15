@@ -26,48 +26,24 @@ export const Coffee = () => {
                 <div></div>
             </section>
 
-            <section class="pro">
+            <section class="pro-main">
                 <h2>Our Specials</h2>
-                <div class="pro-box">
+                <div class="pro-main-box">
                     <a href="#!">
                         <img src={coffee1} alt=""></img>
                         <p>Classic vanilla coffee</p>
-                        <p>$50</p>
                     </a>
                     <a href="#!">
                         <img src={coffee1} alt=""></img>
                         <p>Classic vanilla coffee</p>
-                        <p>$50</p>
                     </a>
                     <a href="#!">
                         <img src={coffee1} alt=""></img>
                         <p>Classic vanilla coffee</p>
-                        <p>$50</p>
                     </a>
                     <a href="#!">
                         <img src={coffee1} alt=""></img>
                         <p>Classic vanilla coffee</p>
-                        <p>$50</p>
-                    </a>
-                    <a href="#!">
-                        <img src={coffee1} alt=""></img>
-                        <p>Classic vanilla coffee</p>
-                        <p>$50</p>
-                    </a>
-                    <a href="#!">
-                        <img src={coffee1} alt=""></img>
-                        <p>Classic vanilla coffee</p>
-                        <p>$50</p>
-                    </a>
-                    <a href="#!">
-                        <img src={coffee1} alt=""></img>
-                        <p>Classic vanilla coffee</p>
-                        <p>$50</p>
-                    </a>
-                    <a href="#!">
-                        <img src={coffee1} alt=""></img>
-                        <p>Classic vanilla coffee</p>
-                        <p>$50</p>
                     </a>
                 </div>
             </section>

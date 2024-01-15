@@ -74,8 +74,7 @@
     padding: 7rem 4rem;
 }
 
-.more-img {
-}
+.more-img {}
 
 .more-img div {
     height: 4rem;
@@ -139,4 +138,26 @@
 .pro-box a p:last-child {
     position: absolute;
     right: 0;
+}
+
+/* Main Products */
+
+.pro-main {
+    padding: 7rem 4rem;
+    text-align: center;
+}
+
+.pro-main h2 {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.pro-main-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.pro-main-box img {
+    height: 20rem;
+    cursor: pointer;
 }
