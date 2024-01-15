@@ -143,21 +143,28 @@
 /* Main Products */
 
 .pro-main {
-    padding: 7rem 4rem;
+    padding: 7rem 2rem;
     text-align: center;
 }
 
 .pro-main h2 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     margin-bottom: 4rem;
+    font-weight: 100;
 }
 
 .pro-main-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0 2rem;
 }
 
 .pro-main-box img {
-    height: 20rem;
+    height: 22rem;
     cursor: pointer;
+}
+
+.pro-main-box p {
+    color: black;
 }

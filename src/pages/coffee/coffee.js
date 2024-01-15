@@ -1,7 +1,10 @@
 import './coffee.css'
 
 // Images
-import coffee1 from '../../assets/img/coffee/coffee.png'
+import coffee1 from '../../assets/img/coffee/coffeeMain (1).png'
+import coffee2 from '../../assets/img/coffee/coffeeMain (2).png'
+import coffee3 from '../../assets/img/coffee/coffeeMain (3).png'
+import coffee4 from '../../assets/img/coffee/coffeeMain (4).png'
 
 export const Coffee = () => {
     return (
@@ -34,15 +37,15 @@ export const Coffee = () => {
                         <p>Classic vanilla coffee</p>
                     </a>
                     <a href="#!">
-                        <img src={coffee1} alt=""></img>
+                        <img src={coffee2} alt=""></img>
                         <p>Classic vanilla coffee</p>
                     </a>
                     <a href="#!">
-                        <img src={coffee1} alt=""></img>
+                        <img src={coffee3} alt=""></img>
                         <p>Classic vanilla coffee</p>
                     </a>
                     <a href="#!">
-                        <img src={coffee1} alt=""></img>
+                        <img src={coffee4} alt=""></img>
                         <p>Classic vanilla coffee</p>
                     </a>
                 </div>
