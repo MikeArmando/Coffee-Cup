@@ -20,7 +20,7 @@ export const Coffee = () => {
                 </div>
             </div>
 
-            <section className='Offer'>
+            <section className='Offer-main'>
                 <h2>The Best Coffee</h2>
             </section>
 
@@ -50,15 +50,7 @@ export const Coffee = () => {
                     </a>
                 </div>
             </section>
-
-            <section className='more'>
-                <h2>More Coffe</h2>
-                <div className='more-img'>
-                    <div className='more-img1'></div>
-                    <div className='more-img2'></div>
-                    <div className='more-img3'></div>
-                </div>
-            </section>
+            
         </>
     )
 }
